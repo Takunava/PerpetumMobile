@@ -37,7 +37,7 @@ public class NotificationsFragment extends Fragment {
         button.setOnClickListener(event -> {
             if(flag.get()){
                 textView.setText("lesbian, transgender ?!?");
-                button.setText("....");
+                button.setText(".....");
                 flag.set(false);
 
             } else {
